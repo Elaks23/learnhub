@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register - LearnHub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+
+        <h2>LearnHub</h2>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="quotes.html">Quotes</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- Register Section -->
+
+    <section class="login-section">
+
+        <div class="login-box">
+
+            <h1>Create Account</h1>
+
+            <p>Join LearnHub and start learning.</p>
+
+            <form onsubmit="registerUser(event)">
+
+                <input
+                    type="text"
+                    id="registerName"
+                    placeholder="Full Name"
+                    required>
+
+                <input
+                    type="email"
+                    id="registerEmail"
+                    placeholder="Email Address"
+                    required>
+
+                <input
+                    type="password"
+                    id="registerPassword"
+                    placeholder="Create Password"
+                    required>
+
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    placeholder="Confirm Password"
+                    required>
+
+                <button type="submit">
+                    Register
+                </button>
+
+            </form>
+
+            <p id="registerResult"></p>
+
+            <p class="register-text">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 LearnHub. All Rights Reserved.</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

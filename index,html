@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LearnHub - Learning Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+
+    <h2>LearnHub</h2>
+
+    <ul>
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="gallary.html">Gallery</a></li>
+        <li><a href="quotes.html">Quotes</a></li>
+        <li><a href="contatct.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+    </ul>
+
+     </nav>
+    <!-- Search Box -->
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search LearnHub...">
+
+        <button onclick="searchPage()">Search</button>
+
+    </div>
+
+    <section class="home">
+
+        <div class="home-content">
+
+            <h1>Learn. Practice. Improve.</h1>
+
+            <p>
+                Welcome to LearnHub, a simple learning platform
+                where you can learn new skills and test your knowledge.
+            </p>
+
+            <button>Start Learning</button>
+
+        </div>
+
+    
+
+    </section>
+
+
+    <section class="welcome">
+
+        <h2>Welcome to LearnHub</h2>
+
+        <p>
+            Explore different topics, watch educational videos,
+            attend quizzes and improve your knowledge.
+        </p>
+
+    </section>
+        <!-- Featured Courses -->
+
+<section class="courses">
+
+    <h2>Featured Courses</h2>
+
+    <p class="section-text">
+        Explore our popular learning topics and improve your skills.
+    </p>
+
+    <div class="course-container">
+
+        <div class="course-card">
+            <h3>HTML</h3>
+            <p>
+                Learn the basic structure of webpages using HTML.
+            </p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="course-card">
+            <h3>CSS</h3>
+            <p>
+                Learn how to design beautiful and responsive webpages.
+            </p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="course-card">
+            <h3>Python</h3>
+            <p>
+                Learn Python programming from basic concepts.
+            </p>
+            <button>Learn More</button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Why Choose Us -->
+
+<section class="why-us">
+
+    <h2>Why Choose LearnHub?</h2>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <h3>📚 Easy Learning</h3>
+            <p>
+                Simple explanations that are easy to understand.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <h3>🎯 Practice Quiz</h3>
+            <p>
+                Test your knowledge with interesting quizzes.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <h3>🎥 Video Learning</h3>
+            <p>
+                Learn through useful educational videos.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Daily Quote -->
+
+<section class="quote">
+
+    <h2>Daily Motivation</h2>
+
+    <p>
+        "Success is the sum of small efforts repeated every day."
+    </p>
+
+</section>
+
+
+<!-- Quiz Banner -->
+
+<section class="quiz-banner">
+
+    <h2>Ready to Test Your Knowledge?</h2>
+
+    <p>
+        Take our quiz and see how much you have learned.
+    </p>
+
+    <button>Start Quiz</button>
+
+</section>s
+
+<section class="home-courses">
+
+    <h2>Popular Courses</h2>
+
+    <p>Learn useful skills and build your knowledge.</p>
+
+    <div class="home-course-container">
+
+        <div class="home-course-card">
+            <h3>HTML & CSS</h3>
+            <p>Learn how to create beautiful webpages.</p>
+            <a href="courses.html">Learn More</a>
+        </div>
+
+        <div class="home-course-card">
+            <h3>Python</h3>
+            <p>Start programming with simple Python concepts.</p>
+            <a href="courses.html">Learn More</a>
+        </div>
+
+        <div class="home-course-card">
+            <h3>MySQL</h3>
+            <p>Learn databases and basic SQL queries.</p>
+            <a href="courses.html">Learn More</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Why Choose LearnHub -->
+
+<section class="why-section">
+
+    <h2>Why Choose LearnHub?</h2>
+
+    <p>Everything you need to learn and improve your skills.</p>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <h3>📚 Easy Learning</h3>
+            <p>Simple explanations that are easy for beginners to understand.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>📝 Interactive Quiz</h3>
+            <p>Test your knowledge and check your learning progress.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>🎥 Learning Videos</h3>
+            <p>Learn important concepts through useful educational videos.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>💡 Daily Motivation</h3>
+            <p>Get inspiration and stay motivated while learning.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Motivation Section -->
+
+<section class="home-motivation">
+
+    <h2>Keep Learning. Keep Growing. 🚀</h2>
+
+    <p>
+        "Every step you take towards learning is a step towards success."
+    </p>
+
+    <a href="courses.html">Explore Courses</a>
+
+</section>
+
+<!-- About LearnHub -->
+
+<section class="home-about">
+
+    <h2>About LearnHub</h2>
+
+    <p>
+        LearnHub is a simple learning platform created to help
+        students learn new skills, practice their knowledge,
+        and improve step by step.
+    </p>
+
+    <a href="about.html">Learn More About Us</a>
+
+</section>
+    <footer>
+
+    <div class="footer-content">
+
+        <div>
+            <h2>LearnHub</h2>
+            <p>Learn. Practice. Improve.</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <p>
+                <a href="index.html">Home</a> |
+                <a href="courses.html">Courses</a> |
+                <a href="quiz.html">Quiz</a>
+            </p>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>learnhub@example.com</p>
+            <p>Tamil Nadu, India</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 LearnHub. All Rights Reserved.
+    </p>
+
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

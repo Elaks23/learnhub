@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact - LearnHub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+
+        <h2>LearnHub</h2>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="quotes.html">Quotes</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- Contact Header -->
+
+    <section class="contact-header">
+
+        <h1>Contact Us</h1>
+
+        <p>
+            Have a question? Feel free to contact us.
+        </p>
+
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section class="contact-section">
+
+        <div class="contact-info">
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                We would love to hear from you.
+                Send us your questions, suggestions or feedback.
+            </p>
+
+            <p>📧 Email: learnhub@example.com</p>
+
+            <p>📞 Phone: +91 98765 43210</p>
+
+            <p>📍 Location: Tamil Nadu, India</p>
+
+        </div>
+
+
+        <div class="contact-form">
+
+            <h2>Send a Message</h2>
+
+            <form onsubmit="sendMessage(event)">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required>
+
+                <input
+                    type="text"
+                    placeholder="Subject"
+                    required>
+
+                <textarea
+                    id="message"
+                    placeholder="Your Message"
+                    rows="6"
+                    required></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+            <p id="messageResult"></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 LearnHub. All Rights Reserved.</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

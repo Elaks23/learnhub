@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz - LearnHub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+
+        <h2>LearnHub</h2>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- Quiz Header -->
+
+    <section class="quiz-header">
+
+        <h1>Test Your Knowledge</h1>
+
+        <p>
+            Answer the questions and check your score.
+        </p>
+
+    </section>
+
+
+    <!-- Quiz -->
+
+    <section class="quiz-section">
+
+        <div class="quiz-box">
+
+            <h2>Computer Basics Quiz</h2>
+
+            <!-- Question 1 -->
+
+            <div class="question">
+
+                <h3>1. What does HTML stand for?</h3>
+
+                <label>
+                    <input type="radio" name="q1" value="wrong">
+                    Hyper Transfer Markup Language
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="correct">
+                    Hyper Text Markup Language
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="wrong">
+                    High Text Machine Language
+                </label>
+
+            </div>
+
+
+            <!-- Question 2 -->
+
+            <div class="question">
+
+                <h3>2. Which language is used for website styling?</h3>
+
+                <label>
+                    <input type="radio" name="q2" value="wrong">
+                    Python
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="correct">
+                    CSS
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="wrong">
+                    MySQL
+                </label>
+
+            </div>
+
+
+            <!-- Question 3 -->
+
+            <div class="question">
+
+                <h3>3. Which language is used to add interaction to webpages?</h3>
+
+                <label>
+                    <input type="radio" name="q3" value="wrong">
+                    HTML
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="wrong">
+                    CSS
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="correct">
+                    JavaScript
+                </label>
+
+            </div>
+
+
+            <!-- Question 4 -->
+
+            <div class="question">
+
+                <h3>4. Which language is popular for beginners in programming?</h3>
+
+                <label>
+                    <input type="radio" name="q4" value="correct">
+                    Python
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="wrong">
+                    HTML
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="wrong">
+                    CSS
+                </label>
+
+            </div>
+
+
+            <!-- Question 5 -->
+
+            <div class="question">
+
+                <h3>5. What is used to store data in tables?</h3>
+
+                <label>
+                    <input type="radio" name="q5" value="wrong">
+                    Browser
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="correct">
+                    Database
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="wrong">
+                    Keyboard
+                </label>
+
+            </div>
+
+
+            <button onclick="checkQuiz()">Submit Quiz</button>
+
+            <div id="result"></div>
+
+        </div>
+
+    </section>
+    <!-- Quiz Information -->
+
+<section class="quiz-info">
+
+    <h2>Test Your Knowledge</h2>
+
+    <p>
+        Answer the questions carefully and check your score.
+        Keep practicing to improve your knowledge.
+    </p>
+
+    <div class="quiz-tips">
+
+        <div class="quiz-tip">
+            <h3>📖 Read Carefully</h3>
+            <p>Read every question before selecting your answer.</p>
+        </div>
+
+        <div class="quiz-tip">
+            <h3>💡 Think First</h3>
+            <p>Take a moment to think before choosing an option.</p>
+        </div>
+
+        <div class="quiz-tip">
+            <h3>🏆 Keep Practicing</h3>
+            <p>Practice regularly and try to improve your score.</p>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 LearnHub. All Rights Reserved.</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

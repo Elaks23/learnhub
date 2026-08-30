@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Resources - LearnHub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+
+        <h2>LearnHub</h2>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="quotes.html">Quotes</a></li>
+            <li><a href="resources.html">Resources</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- Resources Header -->
+
+    <section class="resources-header">
+
+        <h1>Learning Resources</h1>
+
+        <p>
+            Useful materials to support your learning journey.
+        </p>
+
+    </section>
+
+
+    <!-- Resources -->
+
+    <section class="resources-section">
+
+        <h2>Explore Resources</h2>
+
+        <div class="resource-container">
+
+
+            <div class="resource-card">
+
+                <h3>📖 Study Notes</h3>
+
+                <p>
+                    Read simple notes and revise important
+                    concepts before your exams.
+                </p>
+
+                <a href="#">View Notes</a>
+
+            </div>
+
+
+            <div class="resource-card">
+
+                <h3>💻 Coding Practice</h3>
+
+                <p>
+                    Practice programming problems and
+                    improve your coding skills.
+                </p>
+
+                <a href="#">Start Practice</a>
+
+            </div>
+
+
+            <div class="resource-card">
+
+                <h3>🌐 Useful Websites</h3>
+
+                <p>
+                    Explore useful websites for learning
+                    programming and technology.
+                </p>
+
+                <a href="#">Explore Links</a>
+
+            </div>
+
+
+            <div class="resource-card">
+
+                <h3>📝 Practice Materials</h3>
+
+                <p>
+                    Use practice questions and materials
+                    to improve your preparation.
+                </p>
+
+                <a href="#">View Materials</a>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Extra Learning Resources -->
+
+<section class="extra-resources">
+
+    <h2>Recommended Learning</h2>
+
+    <div class="extra-resource-container">
+
+        <div class="extra-resource-card">
+            <h3>📘 HTML</h3>
+            <p>Learn the basics of webpage structure.</p>
+            <a href="https://www.w3schools.com/html/" target="_blank">
+                Learn HTML
+            </a>
+        </div>
+
+        <div class="extra-resource-card">
+            <h3>🎨 CSS</h3>
+            <p>Learn how to design and style webpages.</p>
+            <a href="https://www.w3schools.com/css/" target="_blank">
+                Learn CSS
+            </a>
+        </div>
+
+        <div class="extra-resource-card">
+            <h3>🐍 Python</h3>
+            <p>Practice Python programming from basics.</p>
+            <a href="https://www.w3schools.com/python/" target="_blank">
+                Learn Python
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 LearnHub. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Feedback - LearnHub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+
+        <h2>LearnHub</h2>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="quotes.html">Quotes</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- Feedback Header -->
+
+    <section class="feedback-header">
+
+        <h1>Share Your Feedback</h1>
+
+        <p>
+            Your feedback helps us improve LearnHub.
+        </p>
+
+    </section>
+
+
+    <!-- Feedback Form -->
+
+    <section class="feedback-section">
+
+        <div class="feedback-box">
+
+            <h2>How Was Your Experience?</h2>
+
+            <form onsubmit="submitFeedback(event)">
+
+                <input
+                    type="text"
+                    id="feedbackName"
+                    placeholder="Your Name"
+                    required>
+
+
+                <label class="rating-title">
+                    Rate LearnHub
+                </label>
+
+                <div class="rating">
+
+                    <label>
+                        <input type="radio" name="rating" value="1" required>
+                        ⭐
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rating" value="2">
+                        ⭐⭐
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rating" value="3">
+                        ⭐⭐⭐
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rating" value="4">
+                        ⭐⭐⭐⭐
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rating" value="5">
+                        ⭐⭐⭐⭐⭐
+                    </label>
+
+                </div>
+
+
+                <textarea
+                    id="feedbackMessage"
+                    rows="6"
+                    placeholder="Write your feedback..."
+                    required></textarea>
+
+
+                <button type="submit">
+                    Submit Feedback
+                </button>
+
+            </form>
+
+            <p id="feedbackResult"></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 LearnHub. All Rights Reserved.</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
